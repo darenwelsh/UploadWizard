@@ -420,7 +420,8 @@ return array(
 				'cc-by-sa-3.0',
 				'cc-by-4.0',
 				'cc-by-3.0',
-				'cc-zero'
+				'cc-zero',
+				'enterprise'
 			)
 		),
 

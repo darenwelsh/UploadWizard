@@ -29,7 +29,15 @@ $wgUploadWizardConfig = array(
         'fileExtensions' => $wgFileExtensions, //omitting this can cause errors
         'licensing' => array(
         //      'defaultType' => 'thirdparty',
-                'ownWorkDefault' => 'notown',
+                'ownWorkDefault' => 'own',
+                //'ownWorkDefault' => 'notown',
+                'ownWork' => array(
+                    'type' => 'or',
+                    'template' => 'self', // maybe this can be modified???
+                    'licenses' => array(
+                         'enterprise',
+                    )
+                ),
                 'thirdParty' => array(
                         'type' => 'or',
                         'defaultLicense' => 'enterprise',
