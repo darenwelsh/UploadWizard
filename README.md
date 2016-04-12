@@ -3,6 +3,7 @@ Enterprise fork of WMF UploadWizard
 
 
 # LocalSettings.php mods
+``` php
 require_once $egExtensionLoader->registerLegacyExtension(
         'UploadWizard',
         'https://gerrit.wikimedia.org/r/mediawiki/extensions/UploadWizard',
@@ -47,4 +48,4 @@ $wgUploadWizardConfig = array(
 //      'minSourceLength' => 0,
 
 );
-
+```
