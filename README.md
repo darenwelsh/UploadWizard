@@ -29,11 +29,10 @@ $wgUploadWizardConfig = array(
         'fileExtensions' => $wgFileExtensions, //omitting this can cause errors
         'licensing' => array(
         //      'defaultType' => 'thirdparty',
-                'ownWorkDefault' => 'own',
-                //'ownWorkDefault' => 'notown',
+                'ownWorkDefault' => 'own', //'notown',
                 'ownWork' => array(
                     'type' => 'or',
-                    'template' => 'self', // maybe this can be modified???
+                    'template' => 'licensing', // this adds a link to Template:Licensing to the file info page
                     'licenses' => array(
                          'enterprise',
                     )
@@ -51,9 +50,6 @@ $wgUploadWizardConfig = array(
                         ),
                 ),
         ),
-
-//      'minAuthorLength' => 0,
-//      'minSourceLength' => 0,
 
 );
 ```
