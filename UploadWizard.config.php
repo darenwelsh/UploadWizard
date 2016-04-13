@@ -420,8 +420,7 @@ return array(
 				'cc-by-sa-3.0',
 				'cc-by-4.0',
 				'cc-by-3.0',
-				'cc-zero',
-				'enterprise'
+				'cc-zero'
 			)
 		),
 
@@ -440,7 +439,8 @@ return array(
 						'cc-by-4.0',
 						'cc-by-3.0',
 						'cc-by-2.5',
-						'cc-zero'
+						'cc-zero',
+						'enterprise'
 					)
 				),
 				array(
@@ -637,4 +637,3 @@ return array(
 	// Should we allow multiple files in a form?
 	'enableMultipleFiles' => true,
 );
-

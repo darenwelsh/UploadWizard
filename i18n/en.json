@@ -347,4 +347,3 @@
 	"apihelp-query+allcampaigns-param-limit": "Number of campaigns to return.",
 	"apihelp-query+allcampaigns-example-1": "Enumerate enabled campaigns"
 }
-
