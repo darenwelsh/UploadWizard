@@ -389,9 +389,9 @@ return array(
 			'templates' => array( 'subst:Custom license marker added by UW' ),
 			'url' => wfMessage( 'mwe-upwiz-license-custom-url' )->parse()
 		),
-		'enterprise' => array(
-			'msg' => 'mwe-upwiz-license-enterprise',
-			'templates' => array( 'Enterprise' )
+		'generic' => array(
+			'msg' => 'mwe-upwiz-license-generic',
+			'templates' => array( 'Generic' )
 		)
 	),
 
@@ -440,7 +440,7 @@ return array(
 						'cc-by-3.0',
 						'cc-by-2.5',
 						'cc-zero',
-						'enterprise'
+						'generic'
 					)
 				),
 				array(
@@ -481,8 +481,8 @@ return array(
 					'licenses' => array( 'none' )
 				),
 				array(
-					'head' => 'mwe-upwiz-license-enterprise-head',
-					'licenses' => array( 'enterprise' )
+					'head' => 'mwe-upwiz-license-generic-head',
+					'licenses' => array( 'generic' )
 				),
 			)
 		)
