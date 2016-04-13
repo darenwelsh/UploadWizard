@@ -34,17 +34,17 @@ $wgUploadWizardConfig = array(
                     'type' => 'or',
                     'template' => 'licensing', // this adds a link to Template:Licensing to the file info page
                     'licenses' => array(
-                         'enterprise',
+                         'generic',
                     )
                 ),
                 'thirdParty' => array(
                         'type' => 'or',
-                        'defaultLicense' => 'enterprise',
+                        'defaultLicense' => 'generic',
                         'licenseGroups' => array(
                                 array(
-                                        'head' => 'mwe-upwiz-license-enterprise-head',
+                                        'head' => 'mwe-upwiz-license-generic-head',
                                         'licenses' => array(
-                                                'enterprise',
+                                                'generic',
                                         )
                                 ),
                         ),
