@@ -439,8 +439,7 @@ return array(
 						'cc-by-4.0',
 						'cc-by-3.0',
 						'cc-by-2.5',
-						'cc-zero',
-						'generic'
+						'cc-zero'
 					)
 				),
 				array(
@@ -479,11 +478,7 @@ return array(
 				array(
 					'head' => 'mwe-upwiz-license-none-head',
 					'licenses' => array( 'none' )
-				),
-				array(
-					'head' => 'mwe-upwiz-license-generic-head',
-					'licenses' => array( 'generic' )
-				),
+				)
 			)
 		)
 	),
